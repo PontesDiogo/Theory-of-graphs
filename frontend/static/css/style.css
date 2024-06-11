@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #333;
+}
+
+.description {
+    margin-top: 20px;
+    color: #666;
+}
+
+.grid-container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 12.5%;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+
+td.selected-start {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+td.selected-goal {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#result button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5bc0de;
+    color: #fff;
+    cursor: pointer;
+}
+
+#result button:hover {
+    background-color: #2e6da4;
+}
+
+.path {
+    background-color: #add8e6;
+}

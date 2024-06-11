@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Path Finder</h1>
+        <p class="description">Este sistema utiliza o algoritmo de Dijkstra, um método da área de pesquisa operacional, para encontrar o caminho mais curto entre dois pontos em um grafo ponderado. O algoritmo funciona explorando todas as rotas possíveis a partir do ponto de partida, atribuindo custos a cada aresta e selecionando o caminho com o menor custo total até o ponto de chegada.</p>
+        <div class="grid-container">
+            <table id="grid">
+                {% for row in range(8) %}
+                <tr>
+                    {% for col in range(8) %}
+                    <td data-coord="{{ row }},{{ col }}"></td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <button id="findPathBtn">Encontrar Caminho</button>
+        <button id="resetBtn">Reiniciar</button>
+        <div id="result"></div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
