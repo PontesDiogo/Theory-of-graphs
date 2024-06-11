@@ -1,2 +1,1 @@
-# Theory-of-graphs
-# Theory-of-graphs
+Este projeto é um aplicativo da web que utiliza o algoritmo de Dijkstra, uma técnica da área de pesquisa operacional, para encontrar o caminho mais curto entre dois pontos em uma grade ponderada. O usuário pode selecionar um ponto de partida e um ponto de destino em uma grade interativa e, em seguida, clicar em um botão para calcular e exibir o caminho mais curto. Além disso, o aplicativo mostra várias opções de caminho e permite que o usuário visualize cada opção clicando em botões correspondentes. O objetivo é fornecer uma ferramenta simples e intuitiva para encontrar rotas ótimas em uma grade de forma interativa
