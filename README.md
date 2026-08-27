@@ -104,11 +104,10 @@ Para entrar em contato ou contribuir, use uma das opções abaixo:
 - GitHub: [@PontesDiogo](https://github.com/PontesDiogo)
 - Issues do repositório (relatar bugs / pedir features): https://github.com/PontesDiogo/Theory-of-graphs/issues
 - Pull requests (envie contribuições): https://github.com/PontesDiogo/Theory-of-graphs/pulls
-- Email: [seu-email@exemplo.com](mailto:seu-email@exemplo.com)  <!-- Substitua pelo seu e-mail real -->
-- LinkedIn: https://www.linkedin.com/in/seu-linkedin  <!-- Substitua pelo seu perfil LinkedIn -->
-- Twitter/X: https://twitter.com/seu_usuario           <!-- Substitua pelo seu usuário no Twitter/X -->
+- Email: [diogogpontes@gmail.com](mailto:diogogpontes@gmail.com)
+- LinkedIn: https://www.linkedin.com/in/diogogarciapontes/
 
-Dica: use *Issues* para bugs e pedidos de funcionalidades; abra *Pull Requests* para enviar código. Substitua os placeholders acima (email, LinkedIn, Twitter) pelos seus links pessoais, se desejar.
+Dica: use *Issues* para bugs e pedidos de funcionalidades; abra *Pull Requests* para enviar código.
 
 ---
 
